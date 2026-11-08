@@ -6,6 +6,16 @@ subtotal = price * quantity
 discount = float(input("Discount percentage? "))
 discount_amount = subtotal * discount / 100
 final_total = subtotal - discount_amount
+if quantity >= 5:
+    print("Bulk purchase")
+    if quantity >= 20:
+        print("Large order")
+    elif quantity >= 10:
+        print("Medium order")
+    else:
+        print("small order")
+else: 
+    print("Regular purchase")
 print(f"Track name: {name}")
 print(f"Qantity: {quantity}")
 print(f"                    Subtotal: {subtotal:.2f}")
