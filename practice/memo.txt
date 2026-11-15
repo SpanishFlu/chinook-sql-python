@@ -29,3 +29,18 @@ collection = single "variable" used to store multiple values
 Lists = [] ordered and changeable. Duplicates OK
 Set = {} unordered and immutable, but Add/Remove OK. No Duplicates
 Tuple = () ordered and unchangeable. Duplicates OO. Faster
+
+dictionary = a collection of {key:value} pairs ordered and changeable. No Duplicates
+capitals = {"USA": "Washington"....}
+capitals.get("USA")
+capitals.update({"Germany": "Berlin"})
+capitals.popitem() removes latest value
+capitals.clear()
+capitals.keys()
+capitals.values()
+capitals.items()
+
+random.randint(1,6)
+random.random()
+random.choice(options) #OPTIONS = ("a","b")
+random.shuffle(cards)
